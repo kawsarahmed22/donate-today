@@ -21,12 +21,20 @@
 font-weight: 700;
 font-size: 45px;
 color: #121212;
+text-align: center;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+.heading-paragraph{
+    color: #707070;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
 /* Header Part css */
 
 #header-part {
@@ -57,11 +65,7 @@ body{
     text-align: center;
     padding: 130px 349px;
 }
-#donate-today p{
-    color: #707070;
-    font-size: 18px;
-    margin: 20px 0;
-}
+
 
 .donate-amount {
     display: flex;
@@ -76,6 +80,42 @@ body{
 }
 #donate-today input{
     border: 2px solid #e1e1e1;
-    margin-bottom: 20px;
+    margin: 20px 0;
     padding: 5px 10px;
+}
+
+#our-donate-plan>p{
+    padding: 20px 316px;
+}
+#food-shelter-education{
+    display: flex;
+}
+#food-shelter-education h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #121212;
+}
+#food-shelter-education p{
+font-weight: 400;
+font-size: 16px;
+color: #707070;
+}
+#food-shelter-education .food,
+#food-shelter-education .shelter,
+#food-shelter-education, .education{
+padding: 40px;
+margin-right: 20px;
+}
+#food-shelter-education .food {
+    background: #EDF5F6;
+    border-radius: 5px;
+}
+#food-shelter-education .shelter {
+    background: #FFEEEE;
+    border-radius: 5px;
+}
+#food-shelter-education .education {
+    background: #FFF4D6;
+    border-radius: 5px;
+    margin-right: 0;
 }
