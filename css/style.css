@@ -60,12 +60,12 @@ body{
     margin: 20px 0;
 }
 
+/* Donate Today css */
 
 #donate-today{
     text-align: center;
     padding: 130px 349px;
 }
-
 
 .donate-amount {
     display: flex;
@@ -84,9 +84,14 @@ body{
     padding: 5px 10px;
 }
 
+/* Our Donate Plan css */
+
 #our-donate-plan>p{
     padding: 20px 316px;
 }
+
+/* Food Shelter Education css */
+
 #food-shelter-education{
     display: flex;
 }
@@ -119,12 +124,14 @@ margin-right: 20px;
     border-radius: 5px;
     margin-right: 0;
 }
+
+/* School and Doctor css */
+
 #school, #doctor {
     display: flex;
     padding: 50px;
     justify-content: center;
     margin: 0 auto;
-    
 }
 
 .school-right img,
@@ -132,14 +139,12 @@ margin-right: 20px;
     width: 100%;
 }
 
-
 .school-left,
 .doctor-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
 }
 .school-left p{
     margin: 10px 0;
@@ -149,11 +154,11 @@ margin-right: 20px;
     margin-right: 20px;
 }
 
+/* Get Update css */
+
 #get-update {
     padding: 50px 300px;
 }
-
-
 
 .subscribe {
     background-color: #FFF4D6;
@@ -162,8 +167,9 @@ margin-right: 20px;
 .subscribe input {
     padding: 10px 15px;
 
-
 }
+
+/* Footer css */
 
 #footer {
     background-color: #0B0D17;
