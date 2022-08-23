@@ -17,6 +17,12 @@
     font-size: 18px;
 }
 
+.heading-title {
+font-weight: 700;
+font-size: 45px;
+color: #121212;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -44,4 +50,32 @@ body{
     font-size: 18px;
     font-weight: 400;
     margin: 20px 0;
+}
+
+
+#donate-today{
+    text-align: center;
+    padding: 130px 349px;
+}
+#donate-today p{
+    color: #707070;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+}
+#donate-today .donate-amount p{
+    padding: 20px;
+}
+#donate-today .donate-amount .second-amount{
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+}
+#donate-today input{
+    border: 2px solid #e1e1e1;
+    margin-bottom: 20px;
+    padding: 5px 10px;
 }
